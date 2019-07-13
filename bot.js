@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "&"
-var adminprefix = '&'
+var prefix = "!"
+var adminprefix = '!'
 
 client.on("message", message => {
     if (message.content.startsWith(prefix + "obc")) { ///@» MHSTR 🇮🇶#1119
